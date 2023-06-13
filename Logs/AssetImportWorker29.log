@@ -1,0 +1,81 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 3863 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker29
+-projectPath
+C:/Users/Admin/ARfoundation2
+-logFile
+Logs/AssetImportWorker29.log
+-srvPort
+38426
+Successfully changed project path to: C:/Users/Admin/ARfoundation2
+C:/Users/Admin/ARfoundation2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15556] Host "[IP] 169.254.53.135 [Port] 0 [Flags] 2 [Guid] 286713240 [EditorId] 286713240 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JBN4UI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15556] Host "[IP] 169.254.53.135 [Port] 0 [Flags] 2 [Guid] 286713240 [EditorId] 286713240 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JBN4UI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+received signal from system: SIGSEGV
+Obtained 25 stack frames
+0x00007ff67ff1041d (Unity) 
+0x00007ff67ff16fd9 (Unity) 
+0x00007ff680eb3973 (Unity) 
+0x00007ff67ff16016 (Unity) 
+0x00007ff67ff0fa4c (Unity) 
+0x00007ff6822f44de (Unity) 
+0x00007ff6823b61b8 (Unity) 
+0x00007ff6822c0e10 (Unity) 
+0x00007ff8e6ef3cff (ntdll) _chkstk
+0x00007ff8e6e6e456 (ntdll) RtlFindCharInUnicodeString
+0x00007ff8e6ef2cee (ntdll) KiUserExceptionDispatcher
+0x00007ff67f782bda (Unity) 
+0x00007ff67f77db20 (Unity) 
+0x00007ff67f77c9cb (Unity) 
+0x00007ff67f77d0a5 (Unity) 
+0x00007ff67f77c2fd (Unity) 
+0x00007ff67fc98598 (Unity) 
+0x00007ff67fa9437a (Unity) 
+0x00007ff67fa927dd (Unity) 
+0x00007ff67fadfe6f (Unity) 
+0x00007ff680a56d71 (Unity) 
+0x00007ff680ebe0d8 (Unity) 
+0x00007ff68229e77e (Unity) 
+0x00007ff8e66926ad (KERNEL32) BaseThreadInitThunk
+0x00007ff8e6eaa9f8 (ntdll) RtlUserThreadStart
+

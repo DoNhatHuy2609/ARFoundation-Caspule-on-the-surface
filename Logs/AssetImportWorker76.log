@@ -1,0 +1,747 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 3863 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker76
+-projectPath
+C:/Users/Admin/ARfoundation2
+-logFile
+Logs/AssetImportWorker76.log
+-srvPort
+38426
+Successfully changed project path to: C:/Users/Admin/ARfoundation2
+C:/Users/Admin/ARfoundation2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23752] Host "[IP] 169.254.53.135 [Port] 0 [Flags] 2 [Guid] 1167862401 [EditorId] 1167862401 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JBN4UI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23752] Host "[IP] 169.254.53.135 [Port] 0 [Flags] 2 [Guid] 1167862401 [EditorId] 1167862401 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JBN4UI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 343.28 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/ARfoundation2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   Intel
+    VRAM:     1931 MB
+    Driver:   27.20.100.9365
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015942 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 783 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 174.78 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.461 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2464ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (2093ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (1749ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (935ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (175ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (357ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.026325 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\ARfoundation2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\ARfoundation2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 587.63 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  4.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4710ms)
+		BeginReloadAssembly (737ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (59ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (194ms)
+		EndReloadAssembly (3693ms)
+			LoadAssemblies (378ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1211ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (1777ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (98ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (589ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (833ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.20 seconds
+Refreshing native plugins compatible for Editor in 14037.26 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (287.3 KB). Loaded Objects now: 4399.
+Memory consumption went from 145.1 MB to 144.8 MB.
+Total: 3039.963900 ms (FindLiveObjects: 130.535700 ms CreateObjectMapping: 5.646100 ms MarkObjects: 2695.533300 ms  DeleteObjects: 207.837800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 285394.790967 seconds.
+  path: Packages/com.unity.xr.arfoundation/Materials/DebugPlane.mat
+  artifactKey: Guid(f1a110d32af21aa4d872c707dfcc6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Materials/DebugPlane.mat using Guid(f1a110d32af21aa4d872c707dfcc6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab38909529d7642ce4876028bf1293b') in 10.932885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 421.156716 seconds.
+  path: Assets/ARCursor.cs
+  artifactKey: Guid(7d4a210fabb1d804db5ef3f883cc33f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARCursor.cs using Guid(7d4a210fabb1d804db5ef3f883cc33f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e2058bde6bf9864caad01a3c83323d0') in 2.865797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003260 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(72f9d600bc5a50d4891c43e4abfb6178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(72f9d600bc5a50d4891c43e4abfb6178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdaf27926093d4ac7aeef23fac91386') in 0.037090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/XR/Settings/OpenXR Package Settings.asset
+  artifactKey: Guid(5c9aea9e8a7cb0347bb442ec3f0ba3a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(5c9aea9e8a7cb0347bb442ec3f0ba3a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7877cdc8bd94af0cc724aec69fb43a4d') in 1.161296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.003488 seconds.
+  path: Assets/XR/Loaders/OpenXRLoader.asset
+  artifactKey: Guid(ccc83bf1ec6c6d54f9c835da2bebca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/OpenXRLoader.asset using Guid(ccc83bf1ec6c6d54f9c835da2bebca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febbb1f2d61446b447d9d7bf9db8bc68') in 0.111994 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 436.99 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (22.9 KB). Loaded Objects now: 4440.
+Memory consumption went from 65.6 MB to 65.6 MB.
+Total: 1079.302200 ms (FindLiveObjects: 3.300900 ms CreateObjectMapping: 0.197000 ms MarkObjects: 1073.209300 ms  DeleteObjects: 2.585600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.050095 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\ARfoundation2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\ARfoundation2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 14.52 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4411ms)
+		BeginReloadAssembly (2355ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (84ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (1472ms)
+		EndReloadAssembly (1838ms)
+			LoadAssemblies (393ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (854ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (15ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (560ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 67.75 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3938 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (42.9 KB). Loaded Objects now: 4444.
+Memory consumption went from 143.9 MB to 143.9 MB.
+Total: 64.079800 ms (FindLiveObjects: 10.037800 ms CreateObjectMapping: 6.733900 ms MarkObjects: 45.068000 ms  DeleteObjects: 2.236300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 537.307274 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx
+  artifactKey: Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx using Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a462f6a80cc3b30c563e7791fc49e5c') in 3.773861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx
+  artifactKey: Guid(f2fc0388a7c562e4fa0d179ac93423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx using Guid(f2fc0388a7c562e4fa0d179ac93423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29abc599522d8165c2876a4bd913ef9') in 0.473925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx
+  artifactKey: Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx using Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc1ffc75735f6f2e69d6f94538cb277') in 0.399056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.291688 seconds.
+  path: Assets/RobotSphere/Assets/Models/Materials/body_diff.mat
+  artifactKey: Guid(9f2645559b8b14773b709fbd9bd6e2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Materials/body_diff.mat using Guid(9f2645559b8b14773b709fbd9bd6e2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd302c1c9708323395e30923806e98c90') in 0.623432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.218590 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.fbm/body_diff.png
+  artifactKey: Guid(04dc1350738704b44bfd9e5f92a63cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.fbm/body_diff.png using Guid(04dc1350738704b44bfd9e5f92a63cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98cfa3647657c2c465b3bca2f873ddd') in 0.471185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.422154 seconds.
+  path: Assets/RobotSphere/Assets/Models/Texture/body_diff.png
+  artifactKey: Guid(aab68ecf469354f6490c3b424a83398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Texture/body_diff.png using Guid(aab68ecf469354f6490c3b424a83398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6b1b79fa8ebb9e607213ec1ebec4cd') in 0.066288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.660836 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.fbx
+  artifactKey: Guid(bff429107601444d59c67940e6ad78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.fbx using Guid(bff429107601444d59c67940e6ad78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaa42c2a8e9f47902bb3b37ab731d90') in 1.627450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.317235 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.fbm
+  artifactKey: Guid(58dd762a432cc7d4986e83aceb08bb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.fbm using Guid(58dd762a432cc7d4986e83aceb08bb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f38a1b301fd35dc41f62107bfabd47d') in 0.036188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.949213 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx
+  artifactKey: Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx using Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d9535a8caa99b1fe273cbb2a8d06ffe') in 2.461220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/RobotSphere/Assets/Scripts/Editor/RobotFreeAnimEditor.cs
+  artifactKey: Guid(fffb15f689d56364bb7c814d734311cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Scripts/Editor/RobotFreeAnimEditor.cs using Guid(fffb15f689d56364bb7c814d734311cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a94ea4b76124f1bbfbdc31d78a6f5729') in 0.039830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/RobotSphere/Demo/Scenes
+  artifactKey: Guid(4108a9ac2336b443b81cecf80fc89f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Demo/Scenes using Guid(4108a9ac2336b443b81cecf80fc89f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8539de302f36d42f5ad7ec4ede419fdb') in 0.079761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx
+  artifactKey: Guid(a04d47ebf8b64cc4a94b13a384a37882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx using Guid(a04d47ebf8b64cc4a94b13a384a37882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9a917cec388520d8b6bd1807f5ef47c') in 0.324301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RobotSphere/Assets/Scripts/Editor/Resources
+  artifactKey: Guid(669c3b0dc044137458508aa50ab98489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Scripts/Editor/Resources using Guid(669c3b0dc044137458508aa50ab98489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7953dac6a5047f073b014a5f6ea45430') in 0.040078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.fbm
+  artifactKey: Guid(58dd762a432cc7d4986e83aceb08bb8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.fbm using Guid(58dd762a432cc7d4986e83aceb08bb8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00fa6a3c1e2d3a5bb48ef261f6d6a97b') in 0.036727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RobotSphere/Assets/Models/Materials/visor_matAi.mat
+  artifactKey: Guid(01377584c22b84f819ecac7f4047c921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Materials/visor_matAi.mat using Guid(01377584c22b84f819ecac7f4047c921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06b2388b14ce4dd94081f4a3c8400004') in 0.192549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/RobotSphere/Assets
+  artifactKey: Guid(30d1cdc1b09d1f34aa54c83d0b69f316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets using Guid(30d1cdc1b09d1f34aa54c83d0b69f316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c435ef67e65566ed7baf4fdcd916a23f') in 0.043228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/RobotSphere/Demo/Scenes/Robot Animations DemoSettings.lighting
+  artifactKey: Guid(dbe50fe6a2f02f54c9e4282d39425db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Demo/Scenes/Robot Animations DemoSettings.lighting using Guid(dbe50fe6a2f02f54c9e4282d39425db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68f660aa9132358e1765ec26f166fa66') in 0.171608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RobotSphere/Demo/Scenes/Robot Animations Demo.unity
+  artifactKey: Guid(938ace6a044a848858364788d9cac322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Demo/Scenes/Robot Animations Demo.unity using Guid(938ace6a044a848858364788d9cac322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cde5aa240dfb8632233a06d54f7556c') in 0.054334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/RobotSphere/Assets/Scripts
+  artifactKey: Guid(7517d14f906cf9c4582fe51206b3952f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Scripts using Guid(7517d14f906cf9c4582fe51206b3952f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32c5ba06e959079d1f0c7b66ca0c207c') in 0.078258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RobotSphere/Assets/Models/Materials
+  artifactKey: Guid(b332289268bf74140a930547176c1650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Materials using Guid(b332289268bf74140a930547176c1650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a97009b067691147cde16979956ccba') in 0.058025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.fbx
+  artifactKey: Guid(bff429107601444d59c67940e6ad78c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.fbx using Guid(bff429107601444d59c67940e6ad78c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4aa9e44fc18acf7f20375d7df215235') in 0.253036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/RobotSphere/Assets/Models/Texture/body_diff.png
+  artifactKey: Guid(aab68ecf469354f6490c3b424a83398c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Texture/body_diff.png using Guid(aab68ecf469354f6490c3b424a83398c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5846bf68423a8254d2cffcdfd8eadb9') in 0.549415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/RobotSphere
+  artifactKey: Guid(3d3b15022014c2546b1b5d1af24cab34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere using Guid(3d3b15022014c2546b1b5d1af24cab34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e9ecf45be60cc3726256e71a74967cd') in 0.042773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/RobotSphere/Assets/Scripts/RobotFreeAnim.cs
+  artifactKey: Guid(cdfe52ad0699f7842b1bd6f40aadd01e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Scripts/RobotFreeAnim.cs using Guid(cdfe52ad0699f7842b1bd6f40aadd01e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5048a359a8078d84c125fd7bc0593af') in 0.101015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/RobotSphere/Assets/Scripts/Editor/Resources/Notifications/Banners
+  artifactKey: Guid(00cc99c06521a8d41b5a4cb191d3241d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Scripts/Editor/Resources/Notifications/Banners using Guid(00cc99c06521a8d41b5a4cb191d3241d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1307f975f4434657ac1a385faa16cda1') in 0.038117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RobotSphere/Assets/Models/Materials/body_diff.mat
+  artifactKey: Guid(9f2645559b8b14773b709fbd9bd6e2ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Materials/body_diff.mat using Guid(9f2645559b8b14773b709fbd9bd6e2ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e733ccc0edc5f5358ede3cbb94fa78e7') in 0.227150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation
+  artifactKey: Guid(ebb2d83cfcb0f41f88a0a1ea37f56544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Animation using Guid(ebb2d83cfcb0f41f88a0a1ea37f56544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21bef259e6fb28196fba3459a465da6f') in 0.094892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx
+  artifactKey: Guid(52ad55bee0260b64da664da407ed38b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx using Guid(52ad55bee0260b64da664da407ed38b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3aae2aa09ede62bb00c7fea0d59a2d73') in 0.312776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/RobotSphere/Assets/Prefab/robotSphere.prefab
+  artifactKey: Guid(8e0f285c21cdcf14e8d5c06c57ba936b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Prefab/robotSphere.prefab using Guid(8e0f285c21cdcf14e8d5c06c57ba936b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '730c4191b563c931b3376a3b3bbefb00') in 0.217655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.208435 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation
+  artifactKey: Guid(ebb2d83cfcb0f41f88a0a1ea37f56544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation using Guid(ebb2d83cfcb0f41f88a0a1ea37f56544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7436102d70efa37c775cea0cddfc4b0d') in 0.016256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011447 seconds.
+  path: Assets/RobotSphere/Demo/Scenes/Robot Animations Demo.unity
+  artifactKey: Guid(938ace6a044a848858364788d9cac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Demo/Scenes/Robot Animations Demo.unity using Guid(938ace6a044a848858364788d9cac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e25d53c8bc047c9d6850867a4a7373') in 0.018995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045070 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphereAnmCont.controller
+  artifactKey: Guid(8df5b386369d54778a922298504d1aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphereAnmCont.controller using Guid(8df5b386369d54778a922298504d1aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3db02de871b79124bfdd248193d4cd') in 0.075950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.462580 seconds.
+  path: Assets/RobotSphere/Assets/Scripts/RobotFreeAnim.cs
+  artifactKey: Guid(cdfe52ad0699f7842b1bd6f40aadd01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Scripts/RobotFreeAnim.cs using Guid(cdfe52ad0699f7842b1bd6f40aadd01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03ba65081b2de0ee786d66157269787') in 0.021905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.958398 seconds.
+  path: Assets/RobotSphere/Assets/Scripts/Editor/Resources/Notifications/Banners
+  artifactKey: Guid(00cc99c06521a8d41b5a4cb191d3241d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Scripts/Editor/Resources/Notifications/Banners using Guid(00cc99c06521a8d41b5a4cb191d3241d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65f3372a1c9496c230f6cd7d85efcd6') in 0.014376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.601561 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animationrobotsphrere.anim
+  artifactKey: Guid(074120f899324aa4c9531afafec39444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Animationrobotsphrere.anim using Guid(074120f899324aa4c9531afafec39444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd79bb50c3fd5cb0c387b0b750e4604b5') in 0.346068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 270.578218 seconds.
+  path: Assets/RobotSphere/Demo
+  artifactKey: Guid(bf5fad0ac21652b498d03c04953b40cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Demo using Guid(bf5fad0ac21652b498d03c04953b40cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eec9d761752f871dcd64fd54af6c1ef') in 0.048861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.487183 seconds.
+  path: Assets/RobotSphere/Demo/Scenes
+  artifactKey: Guid(4108a9ac2336b443b81cecf80fc89f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Demo/Scenes using Guid(4108a9ac2336b443b81cecf80fc89f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2461907a3b20e444e01b9a481757d015') in 0.024729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.864492 seconds.
+  path: Assets/RobotSphere/Assets
+  artifactKey: Guid(30d1cdc1b09d1f34aa54c83d0b69f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets using Guid(30d1cdc1b09d1f34aa54c83d0b69f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da385c63311a940d0ec6103a50a99cf') in 0.020765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.866283 seconds.
+  path: Assets/RobotSphere/Assets/Models
+  artifactKey: Guid(b0c2cf52596b2412a85d9067af6756f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models using Guid(b0c2cf52596b2412a85d9067af6756f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840a432ad02366dc5f1cf5bfaf9a40b1') in 0.022629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.015956 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animationrobotsphrere.anim
+  artifactKey: Guid(074120f899324aa4c9531afafec39444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animationrobotsphrere.anim using Guid(074120f899324aa4c9531afafec39444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0a1d8ad803c9c82fa5541f5abe5be4') in 0.103216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.606484 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.controller
+  artifactKey: Guid(c4cb76c9e522af34ea67031a876b7de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.controller using Guid(c4cb76c9e522af34ea67031a876b7de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f2c5f10b8cfd83ac60ac9c410bcaad') in 0.028115 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 185.31 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (22.9 KB). Loaded Objects now: 4453.
+Memory consumption went from 67.1 MB to 67.1 MB.
+Total: 683.463100 ms (FindLiveObjects: 4.868600 ms CreateObjectMapping: 0.617200 ms MarkObjects: 677.356100 ms  DeleteObjects: 0.610100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 286.428522 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.controller
+  artifactKey: Guid(c4cb76c9e522af34ea67031a876b7de0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.controller using Guid(c4cb76c9e522af34ea67031a876b7de0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e4297659c09090494821187b1bf8cef') in 1.061989 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 67.98 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (23.0 KB). Loaded Objects now: 4453.
+Memory consumption went from 67.0 MB to 67.0 MB.
+Total: 560.244300 ms (FindLiveObjects: 5.285200 ms CreateObjectMapping: 0.261800 ms MarkObjects: 554.351000 ms  DeleteObjects: 0.344200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 471.925393 seconds.
+  path: Assets/RobotSphere/Assets/Models/Materials/body_diff.mat
+  artifactKey: Guid(9f2645559b8b14773b709fbd9bd6e2ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RobotSphere/Assets/Models/Materials/body_diff.mat using Guid(9f2645559b8b14773b709fbd9bd6e2ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1517f12333cf49862f08c6450fa9602') in 0.903400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 213.679704 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c483fd0adbbd0d0b1457fd89d7bdc0c') in 0.220680 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 127.28 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (22.9 KB). Loaded Objects now: 4453.
+Memory consumption went from 67.0 MB to 67.0 MB.
+Total: 317.322100 ms (FindLiveObjects: 13.025600 ms CreateObjectMapping: 4.178700 ms MarkObjects: 299.427800 ms  DeleteObjects: 0.682400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 46.45 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (23.0 KB). Loaded Objects now: 4453.
+Memory consumption went from 67.0 MB to 67.0 MB.
+Total: 101.736400 ms (FindLiveObjects: 6.488800 ms CreateObjectMapping: 0.351800 ms MarkObjects: 94.749100 ms  DeleteObjects: 0.143900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 285.640133 seconds.
+  path: Assets/Capsule.prefab
+  artifactKey: Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capsule.prefab using Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca488ecaa8d2d6ab04b7bdb6a38d1efd') in 0.400264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.264523 seconds.
+  path: Assets/Capsule.prefab
+  artifactKey: Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Capsule.prefab using Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e9eedf7436c81c44529dcd734f2cde6') in 0.357148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.900186 seconds.
+  path: Assets/Capsule.prefab
+  artifactKey: Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capsule.prefab using Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560e750e1f4858ce377a726b179694c3') in 0.038102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.911947 seconds.
+  path: Assets/Capsule.prefab
+  artifactKey: Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Capsule.prefab using Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae39ca28cb2ebbe01488c1204e45df7c') in 0.024325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.822535 seconds.
+  path: Assets/Capsule.prefab
+  artifactKey: Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capsule.prefab using Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5d7eb8bfb97c0b0dec28331e02fdca') in 0.026557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.930823 seconds.
+  path: Assets/Capsule.prefab
+  artifactKey: Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Capsule.prefab using Guid(38833fa44402d0743bfc638b0a60c8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb5d5bf880e4a1e298a6575a9f7254c2') in 0.026826 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 45.33 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (22.9 KB). Loaded Objects now: 4454.
+Memory consumption went from 67.0 MB to 67.0 MB.
+Total: 397.435000 ms (FindLiveObjects: 8.690400 ms CreateObjectMapping: 0.903400 ms MarkObjects: 387.167500 ms  DeleteObjects: 0.669500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 187.671694 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.fbx
+  artifactKey: Guid(bff429107601444d59c67940e6ad78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.fbx using Guid(bff429107601444d59c67940e6ad78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce28eab3298f36eb9e61bc2945eb675a') in 3.342914 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 30.46 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (22.9 KB). Loaded Objects now: 4454.
+Memory consumption went from 67.1 MB to 67.0 MB.
+Total: 325.047000 ms (FindLiveObjects: 5.910500 ms CreateObjectMapping: 0.351200 ms MarkObjects: 318.419600 ms  DeleteObjects: 0.361100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
